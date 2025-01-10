@@ -4,582 +4,663 @@
 <!-- https://onlinetools.com/image/grayscale-image -->
 <head>
   <meta charset="utf-8">
-  <title>Hyperemesis Gravidarum</title>
+  <title>Hyperemesis Gravidarum 2</title>
   <script src="https://d3js.org/d3.v4.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="style2.css">
   <!-- <script src="https://d3js.org/d3.v6.js"></script> -->
 </head>
 
 <body>
-  <div class = "snap">
-    <section style="background-image: linear-gradient(180deg, #ffebff, #efc6f5); font-size: 9vh;">
-        <div style="margin-top: 39vh;"> Surviving <br> Hyperemesis Gravidarum (HG) </div>
-        <!-- <img src="svg/Title.png" ></img> -->
-    </section>
-
-    <section style="background: #ffebff">
-      <p class="intro1" style="font-size: 8vh; color: #ff3300ff"> Prevalence </p>
-      <img class="intro-img" src="svg/E1-2.svg"/> <!-- iconographic image-->
-      <p class="intro2"> HG affects <a style="color: #ff3300ff">3</a>-10 <img src="svg/percent.svg" 
-        style="height: 5.3vh; margin: 0 0 -5px -5px;">  of all pregnant women </p>
-    </section>
-
-    <section style="background: #ffebff">
-      <p class="intro1"> It was supposed to be </p>
-      <img class="intro-img" src="svg/E2-2.svg"> <!-- pregnant -->
-      <p class="intro2"> the happiest time of their lives </p> 
-    </section>
-
-    <section style="background-image: linear-gradient(180deg,rgb(34, 28, 39), rgb(45, 38, 49));">
-      <p class="intro1" style="color: #ccf4ccff;"> But for some, it can turn into a</p>
-      <img class="intro-img" src="svg/E3-2.svg"/>
-      <p class="intro2" style="color: #ccf4ccff; font-size: 8vh;"> NIGHTMARE </p>
-    </section>
-
-    <section style="background-image: linear-gradient(180deg,#a68abcff, #bda3cdff);">
-      <section class="section-dataviz">
-        <div class="leftcolumn">
-          <div class="griditem"></div>
-          <div class="griditem">
-            <p style="font-size: 2vw; margin-top: 6vh; margin-bottom: -4vh;"> Nausea + Vomiting </p>
-          </div>
-          
-          <div class="griditem"></div>
-          
-          <div class="griditem" style="padding-left: -20px">
-            <!-- <div class="svg-container">
-              <div class="svg-content-responsive"> -->
-              <svg id="svg-pos1-3-2" width="750" height="450"></svg>
-          </div>
-      
-          <div class="griditem"></div>
-          <div class="griditem" style="margin-top: -140px; margin-left: -20px"> 
-            <img src="svg/icons-pregnancy-stages.svg" style="width: 610px">
-          </div>
+  <article class = "snap">
+      <section class="child" style="margin-top: 5px; background-image: linear-gradient(180deg, #ffebff, #efc6f5); font-size: 9vh;">
+        <div style="margin-top: 39vh; font-size: 4.5vw"> Surviving <br> Hyperemesis Gravidarum (HG) <br><br>
+          <p style="font-size: 3.5vw">– Based on data and women's real stories –</p>
+          <p style="font-size: 2.3vw; margin-top: 1.2vh">[Disclaimer: Some parts are only displayed well with a horizontal display format]</p> 
         </div>
-      
-        <div class="rightcolumn">
-          <div class="griditem"></div>
-          <div class="griditem"></div>
+      </section>
+      <!-- section 1 -->
+      <section class="child" style="background: #ffebff">
+        <p class="intro1" style="font-size: 4.5vw; color: #fb000092"> Prevalence ~3<img src="svg/percent-red.svg" 
+          style="height: 3.5vw; margin: 0 0 -1vh 0;"></p>
+        <img class="intro-img" src="svg/E1.svg"/> <!-- iconographic image-->
+        <p class="intro2" style=" line-height: 60px; color: #d87093"> 
+          HG affects 0.3–10.8 <img src="svg/percent-rose.svg" 
+          style="height: 2.7vw; margin: 0 0 -0.4vh -0.7vw;"> of all pregnant women worldwide.<p 
+          style="font-size: 3vh; padding-top: 10px; color: #d87093">[<a class="link-intro" 
+          href="https://pubmed.ncbi.nlm.nih.gov/31515515/" target="_blank">Fejzo 2019</a>]</p>
+      </section>
+      <!-- section 2 -->
+      <section class="child" style="background: #ffebff">
+        <p class="intro1" style="color: #d87093"> It was supposed to be </p>
+        <img class="intro-img" src="svg/E2-2.svg"> <!-- pregnant -->
+        <p class="intro2" style="color: #d87093"> the happiest time of their lives. </p> 
+      </section>
+      <!-- section 3 -->
+      <section class="child" style="background-image: linear-gradient(180deg,#8865a3, #aa8dbc);">
+        <p class="intro1" style="font-size: 4.6vw"> But for some, it can become a</p>
+        <img class="intro-img" src="svg/E3-2-r.svg"/>
+        <p class="intro2" style="font-size: 5vw"> NIGHTMARE </p>
+      </section>
+      <!-- section 4 -->
+      <section class="child" style="background-image: linear-gradient(180deg,#8865a3, #aa8dbc);">
+        <p class="intro1"> Women with HG may experience Nausea and Vomiting </p>
+        <img class="intro-img" src="svg/E4-2.svg" style="opacity: 1"> 
+        <div class="intro2"> <p class="intro2-2"> just before the 4th week of pregnancy.</p> </div>  
+        <img class="wave" src="svg/waves-violet.svg">
+      </section>
+      <!-- section 5 -->
+      <section class="child" style="background-image: linear-gradient(180deg,#8865a3, #aa8dbc);">
+        <p class="intro1"> They can feel sick all the time, sometimes cannot even drink. </p>
+        <img class="intro-img" src="svg/E5.svg" style="opacity: 1"/>
+        <div class="intro2"> <p class="intro2-2"> Then it is highly recommended to see a doctor ! </p> </div> 
+        <img class="wave" src="svg/waves-violet.svg">
+      </section>
+      <!-- section 6 -->     
+      <section class="child" style="background-image: linear-gradient(180deg,#8865a3, #aa8dbc);">
+        <p class="intro1"> A doctor can diagnose "Hyperemesis Gravidarum",</p>
+        <img class="intro-img" src="svg/E6.svg" style="opacity: 1">
+        <div class="intro2"> <p class="intro2-2"> a <a style="color: #e6b9cfff;" > severe </a> form of <a style="color: #9ff4c4ff;"> Nausea and Vomiting</a> during Pregnancy.</p> </div> 
+        <img class="wave" src="svg/waves-violet.svg" style="margin-top: -25vh;">
+      </section> 
+      <!-- section 7 -->       
+      <section class="child" style="background-image: linear-gradient(180deg,#8865a3, #aa8dbc);">
+        <p class="intro1"> Then doctors can prescribe <a style="color: rgb(71, 29, 139);"> Anti-nausea Medication.</a></p>
+        <img class="intro-img" src="svg/E7.svg" style="opacity: 1">
+        <div class="intro2">But for some the <a style="color: #9ff4c4ff;"> symptoms </a> are still <a style="color: #e6b9cfff;" > too severe. </a> </p> 
+      </section>
+      <!-- section 8 -->   
+      <section class="child" style="background-image: linear-gradient(180deg,#2f2e5a, #60658d);">
+        <p class="intro1" style="color: #fff"> Affected women can experience multiple hospital visits</p>
+        <img class="intro-img" src="svg/E8.svg" style="transform: rotate(-7deg)">
+        <div class="intro2" style="margin-top: -30px; font-size: 3.2vw;"> <p class="intro2-2">  to obtain fluids against dehydration, medication and treatment.<br>HG can feel quite the same as dying.  </p> </div> 
+        <img class="wave" src="svg/waves-blue2.svg" style="margin-top: -40vh">
+      </section>
 
-          <div class="griditem">
-            <div class="scrollbar">
-              <p class="scroll_txt" style="padding-top: 25vh; padding-bottom: 10vh;"> For women affected by HG the Nausea can begin just before 4 weeks of pregnancy. </p>
-              <p class="scroll_txt" style="padding-top: 0vh; padding-bottom: 0vh;"> Scroll! </p>
-              <img src="svg/arrow.png" width="60vw" style="margin: 2vh; opacity: 80%;">
-              <p class="scroll_txt" style="padding-top: 10vh"> They can feel sick all the time, sometimes cannot even drink. </p>
-              <img src="svg/clock.png" width="140vw" style="margin: 2vh; opacity: 80%;">
-              <p class="scroll_txt"> Then it is highly recommended to see a doctor ! </p>
-              <img src="svg/stethoscope.png" width="140vw" style="margin: 2vh; opacity: 65%;">
-              <p class="scroll_txt"> Their doctors may diagnose them with <a style="color: #471d8b;"> "Hyperemesis Gravidarum"</a>, 
-                a <a style="color: #ff3300ff;" > severe </a> form of <a style="color: #00af1d;"> Nausea and Vomiting</a> during Pregnancy.</p>
-              <img src="svg/medis.png" width="140vw" style="margin: 2vh; opacity: 80%;">
-              <p class="scroll_txt"> A prescription of <a style="color: rgb(71, 29, 139);"> Anti-nausea Medication</a> can alleviate symptoms 
-                but for some women the symptoms are still <a style="color: #ff3300ff;" > too severe. </a></p>
-              <img src="svg/hospital.png" width="140vw" style="margin: 2vh; opacity: 80%;">
-                <p class="scroll_txt"> So that they can experience multiple <a style="color: #ff4040;"> hospital visits </a>
-                to obtain fluids against dehydration, special medication and treatment. </p> 
-            </div>
-          </div>
-          
-          <div class="griditem"></div>
-          <div class="griditem"></div>
-      
+      <!-- GIF animation with Inkscape and Gimp: https://logosbynick.com/create-animated-gifs-in-inkscape/-->
+      <section class="child" style="background: #e9d6fbff">
+        <p class="intro1" style="color: #4d4d4d; font-size: 5vh;"> Researchers recently studied why some women are <br> 
+          more affected by nausea and vomiting during pregnancy.</p>
+        <div class="clearfix">
+          <img class="explain-img" src="svg/explainHG.gif" style = "margin-top: -6vh;">
+          <p class="explain-txt"> 
+            <img src="svg/gdf.svg" style="margin: 0 0 -10px -5px;"> 
+            <a class="blood"> Growth Factor (GDF15): <br></a> 
+            A Hormone released by the <a class="placenta"> growing Placenta </a> is transmitted to the brain via <a class="blood"> bloodstream </a> where it triggers the receptors in the Vomiting Center.
+            <p style="font-size: 3vh; padding-top: 10px;">[<a class="link" href="https://pubmed.ncbi.nlm.nih.gov/31515515/" target="_blank">Fejzo 2019</a>]</p> </p>
+          </p>  <!-- target="_blank" opens link in a new tab -->
         </div>
-    </section>
+      </section>
 
+      <section class="child" style="background: #e9d6fbff">
+        <p class="intro1" style="color: #4d4d4d; font-size: 5vh;"> A new model explaining Hyperemesis Gravidarum</p>
+        
+        <div class="clearfix">
+          <img class="explain-img" src="svg/explainHG.gif" style = "margin-top: -6vh;"/>
 
-    <!-- GIF animation with Inkscape and Gimp: https://logosbynick.com/create-animated-gifs-in-inkscape/-->
-    <section style="background: #e9d6fbff">
-      <p class="intro1" style="color: #4d4d4d; font-size: 5vh;"> Current research is trying to understand <br> 
-        the causes and mechanisms of Hyperemesis Gravidarum (HG)</p>
-      
-      <div class="clearfix">
-        <img class="explain-img" src="svg/explainHG.gif" style = "margin-top: -6vh;"/>
-        <p class="explain_txt"> <img src="svg/gdf.svg" style="margin: 0 0 -10px -5px;"> 
-          <a style="color:#b62222ff">Growth Factor (GDF15):<br></a> 
-          A Hormone released by the <a style="color: #c54f55ff">growing Placenta</a>, transmitted through the bloodstream. &nbsp;
-          [<a class="link" href="https://pubmed.ncbi.nlm.nih.gov/31515515/" style="font-size: 0.8em;">Fejzo 2019</a>] </p>
-      </div>
-  </section>
-
-  <section style="background: #e9d6fbff">
-      <p class="intro1" style="color: #4d4d4d; font-size: 5vh;"> A new model explaining Hyperemesis Gravidarum</p>
-      
-      <div class="clearfix">
-        <img class="explain-img" src="svg/explainHG.gif"/>
-        <p class="explain_txt">Recent Research found that, <a style="color:#b62222ff">genetically,</a> 
-          some mothers have a greater <a style="color: #c54f55ff">sensitivity to <img src="svg/gdf.svg" style="margin: 0 0 -10px -5px;"> GDF15</a> 
-          which is linked to persistent Nausea and Vomiting. &nbsp;
-          [<a class="link" href="https://www.nature.com/articles/s41586-023-06921-9" style="font-size: 0.8em;">Fejzo 2024</a>] </p>
-      </div>
+          <p class="explain-txt" style = "margin-top: 6vh;"> Recent Research found that, <a class="blood"> genetically, </a> 
+            some women have a greater <a class="blood"> sensitivity to GDF15 </a> 
+            which is linked to persistent <a class="nausea"> Nausea and Vomiting</a>.
+            <p style="font-size: 3vh; padding-top: 10px;">[<a class="link" href="https://www.nature.com/articles/s41586-023-06921-9" target="_blank">Fejzo 2024</a>]</p> </p>
+        </div> 
+      </section> 
     
-  </section> 
-  
-    <section style="background: #e9d6fbff">
+      <section class="child" style="background: #e9d6fbff">
         <p class="intro1" style="color: #4d4d4d; padding-top: 25vh; padding-left: 25vw; text-align: left;"> Data </p>
-        <p style="font-size: 3vh; color: #4d4d4d; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+        <p style="font-size: 1.5vw; color: #4d4d4d; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
           padding: 7vh 20vw 20vh 25vw; text-align: left;"> 
           The following representation uses data from <br> 
-          <b>"The Norwegian Mother, Father and Child Cohort Study (MoBa)"</b>* <br> 
-          *Den norske mor, far og barn-undersøkelsen <br><br> 
-          MoBa is an ongoing long-term prospective cohort study of 110,000 pregnant Norwegian women and their children
-          (Enrollment: 1999−2008) <br><br> 
-          The quotes used in the story are taken from blogs about HG.  
-        </p>
-    </section>
-   
-    <section style="background: linear-gradient(360deg, rgb(14, 11, 42) 0%, rgb(29, 29, 80) 60%, rgb(76, 73, 167) 100%);">
-      <img src="svg/intro-DV-orange-path2.svg" style="width: 100vw"> 
-      <p class="intro2" style= "color: #fff"> 
-        How do women with HG feel ? <br></p>
-        <p style= "color: #fff; font-size: 3.5vh;"> (We will use the colors in the following visualization)</p> 
-      
-    </section>
+          <b>"The Norwegian Mother, Father and Child Cohort Study (MoBa)"</b><br> 
+          (<a style="font-style: italic">Norweg.</a> "Den norske mor, far og barn-undersøkelsen") <br><br> 
+          MoBa is an ongoing long-term prospective cohort study (Enrollment: 1999−2008).<br>
+          In the following, we will visualize data of 102,810 pregnant Norwegian women.</p>
+      </section>
+    
+      <section class="child" style="background: linear-gradient(360deg, rgb(14, 11, 42) 0%, rgb(29, 29, 80) 60%, rgb(76, 73, 167) 100%);">
+        <img src="svg/intro-DV-orange-path2.svg" style="width: 100vw"> 
+        <p class="intro2" style= "color: #fff"> 
+          How do women with HG feel ? <br></p>
+          <p style= "color: #fff; font-size: 3.5vh;"> (We will use the colors in the following visualization)</p> 
+      </section>
 
     <!-- DATA VISUALIZATION PART 1-->
-    <section class="section-dataviz">
-      <div class="leftcolumn">
-        <div class="griditem"></div>
-        <div class="griditem">
-          <p style="font-size: 2vw; margin-top: 1vh; margin-bottom: -4vh;"> Nausea + Vomiting </p>
-        </div>
-        
-        <div class="griditem"></div>
-        
-        <div class="griditem" style="padding-left: -20px">
-          <!-- <div class="svg-container">
-            <div class="svg-content-responsive"> -->
-            <svg id="svg-pos1-1" width="750" height="450"></svg>
+    <section class="child"> 
+      <div class="section-dataviz">
+        <div class="leftcolumn">
+          <!-- first row with 2 empty columns -->
+          <div class="griditem"></div>
+          <div class="griditem"></div>
+          <!-- second row with content in second column -->
+          <div class="griditem"></div>
+          <div class="griditem">
+            <div class="dataviz">
+              <svg id="svg-pos1-1" width="750" height="480"></svg>
+              <div class="stages">
+                <img class="img-stages" src="svg/icons-pregnancy-stages.svg">
+              </div>
+            </div>              
+          </div>
+          <!-- third row with 2 empty columns -->
+          <div class="griditem"></div> 
+          <div class="griditem"></div>
         </div>
 
-        <div class="griditem"></div>
-        <div class="griditem" style="margin-top: -120px; margin-left: -20px"> 
-          <img src="svg/icons-pregnancy-stages.svg" style="width: 610px">
+        <div class="rightcolumn">
+          <!-- first row with 2 empty columns -->
+          <div class="griditem"></div>
+          <div class="griditem"></div>
+          <!-- second row with content in second column -->
+          <div class="griditem"> 
+            <p class="datavis_descript"> First, we look at women reported “Nausea with Vomiting”. 
+              The x-axis refers to the month of pregnancy.  </p>
+          </div>
+          <div class="griditem"></div>
+          <!-- third row with 2 empty columns -->
+          <div class="griditem"></div>
+          <div class="griditem"></div>
         </div>
-        
-        <div class="griditem"></div> 
-        <div class="griditem"></div>
-
-      </div>
-
-      <div class="rightcolumn">
-        <div class="griditem">
-          <!--<p style="font-size: 2vw; margin-top: 1vh; margin-bottom: -4vh;"> No Nausea + Vomiting</p> -->
-        </div>
-        <div class="griditem">
-         
-        </div>
-        <div class="griditem"></div>
-        <div class="griditem"> 
-          <p class="datavis_descript"> Firstly, we look at women with nausea and vomiting in combination. 
-            The x-axis refers to the month of pregnancy.  </p>
-        </div>
-        <div class="griditem" style="margin-top: -14%; margin-left:-3%"> 
-          
-        </div>
-        <div class="griditem"></div>
-        <div class="griditem"> 
-            
-        </div>
-        <div class="griditem"></div>
       </div>
     </section>
 
    <!-- END OF DATA VISUALIZATION PART 1-->
 
    <!-- DATA VISUALIZATION PART 2-->
-   <section class="section-dataviz">
-    <div class="leftcolumn">
-      <div class="griditem"></div>
-      <div class="griditem">
-        <p style="font-size: 2vw; margin-top: 1vh; margin-bottom: -4vh;"> Nausea + Vomiting </p>
-      </div>
-      
-      <div class="griditem"></div>
-      
-      <div class="griditem" style="padding-left: -20px">
-        <!-- <div class="svg-container">
-          <div class="svg-content-responsive"> -->
-          <svg id="svg-pos1-2" width="750" height="450"></svg>
-      </div>
+    <section class="child"> 
+      <div class="section-dataviz">
+        <div class="leftcolumn">
+          <!-- first row with 2 empty columns -->
+          <div class="griditem"></div>
+          <div class="griditem"></div>
+          <!-- second row with content in second column -->
+          <div class="griditem"></div>
+          <div class="griditem">
+            <div class="dataviz">
+              <svg id="svg-pos1-2" width="750" height="480"></svg>
+              <img class="img-stages" src="svg/icons-pregnancy-stages.svg">
+            </div>              
+          </div>
+          <!-- third row with 2 empty columns -->
+          <div class="griditem"></div> 
+          <div class="griditem"></div>
+        </div>
 
-      <div class="griditem"></div>
-      <div class="griditem" style="margin-top: -120px; margin-left: -20px"> 
-        <img src="svg/icons-pregnancy-stages.svg" style="width: 610px">
+        <div class="rightcolumn">
+          <!-- first row with 2 empty columns -->
+          <div class="griditem"></div>
+          <div class="griditem"></div>
+          <!-- second row with content in second column -->
+          <div class="griditem"> 
+            <p class="datavis_descript"> Now, the y-axis shows the percentage of 102,810 mothers that participated in the MOBA study. </p>
+          </div>
+          <div class="griditem"></div>
+          <!-- third row with 2 empty columns -->
+          <div class="griditem"></div>
+          <div class="griditem"></div>
       </div>
-      
-      <div class="griditem"></div> 
-      <div class="griditem"></div>
+    </section>
 
-    </div>
+    <!-- END OF DATA VISUALIZATION PART 2-->
 
-    <div class="rightcolumn">
-      <div class="griditem">
-        <!--<p style="font-size: 2vw; margin-top: 1vh; margin-bottom: -4vh;"> No Nausea + Vomiting</p> -->
-      </div>
-      <div class="griditem"></div>
-      <div class="griditem"></div>
-      <div class="griditem">
-        <p class="datavis_descript"> 
-          Now, the y-axis refers to the percentage of 110,000 mothers that participated in the MOBA study.
-        </p>
-      </div>
-      <div class="griditem" style="margin-top: -14%; margin-left:-3%"> 
-        
-      </div>
-      <div class="griditem"></div>
-      <div class="griditem"> 
+    <!-- DATA VISUALIZATION PART 3-1 -->
+    <section class="child"> 
+      <div class="section-dataviz">
+        <div class="leftcolumn">
+          <!-- first row with 2 empty columns -->
+          <div class="griditem"></div>
+          <div class="griditem"></div>
+          <!-- second row with content in second column -->
+          <div class="annotation_left">
+            <p class="annotation_all_women">
+              102,810 <br> women <br> in total
+            </p>
+          </div>
+          <div class="griditem">
+            <div class="dataviz">
+              <div id="svg-pos1-3-1"></div>
+              <img class="img-stages" src="svg/icons-pregnancy-stages.svg">
+
+              <div class="label-box">
+                <div class="area-label-item">
+                  <div class="g-element"></div>
+                  <div class="txt-element"></div>
+                </div>
+                <div class="area-label-item">
+                  <div class="g-element"></div>
+                  <div class="txt-element"></div>
+                </div>
+                <div class="area-label-item">
+                  <div class="g-element">
+                    <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="20" cy="20" r="10" fill="#00d02395"/>
+                    </svg>
+                  </div>
+                  <div class="txt-element">Nausea with Vomiting</div>
+                </div>
+              </div>
+            </div>             
+          </div> 
+          <!-- third row with 2 empty columns -->
+          <div class="griditem"></div> 
+          <div class="griditem"></div>
           
+        </div>
+
+
+        <div class="rightcolumn">
+          <!-- first row with 2 empty columns -->
+          <div class="griditem"></div>
+          <div class="griditem"></div>
+          <!-- second row with content in second column -->
+          <div class="griditem"> 
+            <p class="datavis_descript"> This is an area chart over time (months).
+              The green area shows the <a class="underliner" style="-webkit-text-decoration-color: #00d023; /* Safari */ 
+              text-decoration-color: #00d023;">percentage of women suffered from “Nausea with Vomiting</a>” during pregnancy.<br><br> </p>
+          </div>
+          <div class="griditem"></div>
+          <!-- third row with 2 empty columns -->
+          <div class="griditem"></div>
+          <div class="griditem"></div>
+        </div>
       </div>
-      <div class="griditem"></div>
-    </div>
-  </section>
+    </section>
+    <!-- END OF DATA VISUALIZATION PART 3-1 -->
 
- <!-- END OF DATA VISUALIZATION PART 2-->
+    <!-- DATA VISUALIZATION PART 3: zoom -->
+    <section class="child">
+      <div class="section-dataviz">
+        <div class="leftcolumn">
+          <!-- first row with 2 empty columns -->
+          <div class="griditem"></div>
+          <div class="griditem"></div>
+          <!-- second row with content in second column -->
+          <div class="annotation_left">
+            <p class="annotation_all_women">
+              102,810 <br> women <br> in total
+            </p>
+          </div>
+          <div class="griditem">
+            <div class="dataviz">
+              <svg id="svg-pos1-3-2" width="750" height="480"></svg> 
+              <svg id="svg-pos3" width="750" height="480" display="none" ></svg> <!-- style="border-style:dotted" -->
+              <img class="img-stages" src="svg/icons-pregnancy-stages.svg">
+              <button class="zoom-button" type="button" onClick="displaychart(); zoomin()"> Zoom in! </button>
 
- <!-- DATA VISUALIZATION PART 3-->
- <section class="section-dataviz">
-  <div class="leftcolumn">
-    <div class="griditem"></div>
-    <div class="griditem">
-      <p style="font-size: 2vw; margin-top: 1vh; margin-bottom: -4vh;"> Nausea + Vomiting </p>
-    </div>
-    
-    <div class="griditem"></div>
-    
-    <div class="griditem" style="padding-left: -20px">
-      <!-- <div class="svg-container">
-        <div class="svg-content-responsive"> -->
-        <svg id="svg-pos1-3" width="750" height="450"></svg>
-    </div>
+              <div class="label-box" style="margin-left: 150px;">
+                <div class="area-label-item">
+                  <div class="g-element"></div>
+                  <div class="txt-element"></div>
+                </div>
+                
+                <div class="area-label-item">
+                  <div class="g-element">
+                    <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="20" cy="20" r="10" fill="#00d02395"/>
+                    </svg>
+                  </div>
+                  <div class="txt-element">Nausea with Vomiting</div>
+                </div>
 
-    <div class="griditem"></div>
-    <div class="griditem" style="margin-top: -120px; margin-left: -20px"> 
-      <img src="svg/icons-pregnancy-stages.svg" style="width: 610px">
-    </div>
-    
-    <div class="griditem"></div> 
-    <div class="griditem"></div>
-
-  </div>
-
-  <div class="rightcolumn">
-    <div class="griditem">
-      <!--<p style="font-size: 2vw; margin-top: 1vh; margin-bottom: -4vh;"> No Nausea + Vomiting</p> -->
-    </div>
-    <div class="griditem"></div>
-    <div class="griditem"></div>
-    <div class="griditem">
-      <p class="datavis_descript"> 
-        This is an area chart over time (months). 
-        The green area shows the <a class="underliner" style="-webkit-text-decoration-color: #00af1d; /* Safari */ 
-        text-decoration-color: #00af1d;"> percentage of women suffered from N+V</a> during pregnancy.<br><br>
-        Red shows the amount of women <a class="underliner" style="-webkit-text-decoration-color: #ff3300ff; /* Safari */ 
-        text-decoration-color: #ff3300ff;">hospitalized</a> due to long-term Nausea and Vomiting (overall 3 <img src="svg/percent.svg" style="height: 30px; margin: 0 0 -5px -5px;"> of all women).
-      </p>
-    </div>
-    <div class="griditem" style="margin-top: -14%; margin-left:-3%"> 
-      
-    </div>
-    <div class="griditem"></div>
-    <div class="griditem"> 
+                <div class="area-label-item">
+                  <div class="g-element">
+                    <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="20" cy="20" r="10" fill="#ff3300ff"/>
+                    </svg>
+                  </div>
+                  <div class="txt-element">Hospitalized women</div>
+                </div>
+              </div>
+            </div> 
+          </div>
+          <!-- third row with 2 empty columns -->
+          <div class="griditem"></div> 
+          <div class="griditem"></div>             
+        </div>
         
-    </div>
-    <div class="griditem"></div>
-  </div>
-</section>
-
-<!-- END OF DATA VISUALIZATION PART 3 -->
-
- <!-- DATA VISUALIZATION PART 4-->
- <section class="section-dataviz">
-  <div class="leftcolumn">
-    <div class="griditem"></div>
-    <div class="griditem">
-      <p style="font-size: 2vw; margin-top: 1vh; margin-bottom: -4vh;"> Nausea + Vomiting </p>
-    </div>
-    
-    <div class="griditem"></div>
-    
-    <div class="griditem" style="padding-left: -20px">
-      <!-- <div class="svg-container">
-        <div class="svg-content-responsive"> -->
-        <svg id="svg-pos1-4" width="750" height="450">
-          <defs>
-            <linearGradient id="gradient-green">  <!-- for missing data -->
-              <stop offset="00%" stop-color="#00d02322" />
-              <stop offset="35%" stop-color="#00d02322" />
-              <stop offset="40%" stop-color="#00d02350" />
-              <stop offset="49%" stop-color="#00d02350" />
-              <stop offset="53%" stop-color="#00d02388" />
-              <stop offset="100%" stop-color="#00d02388" />
-            </linearGradient>
-         </defs>
-        </svg> 
-    </div>
-
-    <div class="griditem"></div>
-    <div class="griditem" style="margin-top: -120px; margin-left: -20px"> 
-      <img src="svg/icons-pregnancy-stages.svg" style="width: 610px">
-    </div>
-    
-    <div class="griditem"></div> 
-    <div class="griditem"></div>
-
-  </div>
-
-  <div class="rightcolumn">
-    <div class="griditem">
-      <!--<p style="font-size: 2vw; margin-top: 1vh; margin-bottom: -4vh;"> No Nausea + Vomiting</p> -->
-    </div>
-    <div class="griditem"></div>
-    <div class="griditem"></div>
-    <div class="griditem">
-      <p class="datavis_descript"> 
-        As you can see, NV decreases with the fourth month - but not for women with HG! For them, it can 
-        <a class="underliner" style="-webkit-text-decoration-color: #00d02388; /* Safari */ 
-        text-decoration-color: #00d02388;"> last the entire pregnancy</a>.
-      </p>
-    </div>
-    <div class="griditem" style="margin-top: -14%; margin-left:-3%"> 
-      
-    </div>
-    <div class="griditem"></div>
-    <div class="griditem"></div>
-    <div class="griditem"></div>
-  </div>
-</section>
-
-<!-- END OF DATA VISUALIZATION PART 4 -->
-
-<!-- DATA VISUALIZATION PART 5 -->
-<section class="section-dataviz">
-  <div class="leftcolumn">
-    <div class="griditem"></div>
-    <div class="griditem">
-      <p style="font-size: 2vw; margin-top: 1vh; margin-bottom: -4vh;"> Nausea + Vomiting </p>
-    </div>
-    
-    <div class="griditem"></div>
-    <div class="griditem" style="padding-left: -20px">
-        <svg id="svg-pos1-5" width="750" height="450">
-        </svg> 
-    </div>
-
-    <div class="griditem"></div>
-    <div class="griditem" style="margin-top: -120px; margin-left: -20px"> 
-      <img src="svg/icons-pregnancy-stages.svg" style="width: 600px;">
-    </div>
-    <div class="griditem"></div> 
-    <div class="griditem">
-      <p class="datavis_descript_below" style="color: #fff0; margin-top: -120px"> <!-- transprarent --> 
-        On the right, we look at women who have no combination of Nausea and Vomiting</a>.
-      </p>
-    </div>
-
-  </div>
-
-  <div class="rightcolumn">
-    <div class="griditem">
-      <p style="font-size: 2vw; margin-top: 1vh; margin-bottom: -4vh;"> No Nausea + Vomiting</p>
-    </div>
-    <div class="griditem"></div>
-
-    <div class="griditem" style="margin-left: -80px"> 
-      <svg id="svg-pos2-1" width="750" height="450"> 
-      </svg>
-    </div>
-    <div class="griditem"></div>
-
-    <div class="griditem" style="margin-top: -120px; margin-left: -100px"> 
-      <img src="svg/icons-pregnancy-stages.svg" style="width: 600px;">
-    </div>
-    <div class="griditem"></div>
-
-    <div class="griditem">
-      <!-- --> 
-        <p class="datavis_descript_below" style="margin-top: -120px"> 
-        On the right, we look at women who have <a class="underliner" style="-webkit-text-decoration-color: #e6b9cf; /* Safari */ 
-        text-decoration-color: #e6b9cf;">no combination of Nausea and Vomiting</a>.
-      </p>
-      <!-- --> 
-    </div>    
-    <div class="griditem"></div> 
-  </div>
-</section>
-
-<!-- END OF DATA VISUALIZATION PART 5 -->
-
-<!-- DATA VISUALIZATION PART 6: Negative -->
-<section class="section-dataviz">
-  <div class="leftcolumn">
-    <div class="griditem"></div>
-    <div class="griditem">
-      <p style="font-size: 2vw; margin-top: 1vh; margin-bottom: -4vh;"> Nausea + Vomiting </p>
-    </div>
-    
-    <div class="griditem"></div>
-    
-    <div class="griditem" style="padding-left: -20px">
-        <svg id="svg-pos1-6" width="750" height="450">
-        </svg> 
-    </div>
-
-    <div class="griditem"></div>
-    <div class="griditem" style="margin-top: -120px; margin-left: -20px"> 
-      <img src="svg/icons-pregnancy-stages.svg" style="width: 600px">
-    </div>
-        
-    <div class="griditem">
-      <p class="annotation">Percentage of side symptoms of women with <a style="color: #00af1d">Nauseau and Vomiting</a></p>
-    </div> 
-    <div class="griditem"> 
-            <svg id="svg-neg1-1" width="750" height="450" style="margin-top: -5%"> 
-            </svg>
-    </div>
-    
-    <div class="grid-item"></div>
-    <div class="grid-item">
-      <div id="face-fatigue"width="50" height="50" style="margin-left: -4%">
-        <img src="svg/circle.svg" width="25" height="25"></img>
-        <span class="tooltipbox">
-            <div class = "fatigue">Unusual Fatigue/Drowsiness</div>
-            <div class = "quote"> “I went to the doctor and he said it was completely normal.
-              Gradually, the nausea became more intense and I threw up at least 20 times a day. 
-              I became sick, lethargic, unable to function.” </div>
-        </span>
+        <div class="rightcolumn">
+          <!-- first row with 2 empty columns -->
+          <div class="griditem"></div>
+          <div class="griditem"></div>
+          <!-- second row with content in second column -->
+          <div class="griditem"> 
+            <p class="datavis_descript"> Red shows the amount of women “<a class="underliner" style="-webkit-text-decoration-color: #ff3300ff; /* Safari */ 
+                text-decoration-color: #ff3300ff;">hospitalized</a>” due to long-term Nausea and Vomiting (overall 3 
+                <img src="svg/percent.svg" style="height: 30px; margin: 0 0 -5px -5px;"> of all women). However, researchers assume that many HG cases are not reported.</p>
+          </div>
+          <div class="griditem"></div>
+          <!-- third row with 2 empty columns -->
+          <div class="griditem"></div>
+          <div class="griditem"></div>
+        </div>
       </div>
-    </div>
-  </div>
+    </section>
+    <!-- END OF DATA VISUALIZATION PART 3 zoom -->
 
-  <div class="rightcolumn">
-    <div class="griditem">
-    <!--<p style="font-size: 2vw; margin-top: 1vh; margin-bottom: -4vh;"> No Nausea + Vomiting</p> -->
-    </div>
-    <div class="griditem"></div>
-    <div class="griditem"></div>
-    <div class="griditem"></div>
-    <div class="griditem" style="margin-top: -7%; margin-left: 2%; height: 90%"> 
-      <!--<img src="svg/icons-pregnancy-stages.svg" style="width: 63%;">-->
-    </div>
-    <div class="griditem">
-      <p class="datavis_descript"> 
-        HG affects the whole body and mind. <br> The most common symptom is <a class="underliner" style="-webkit-text-decoration-color: #92a2c3; /* Safari */ 
-        text-decoration-color: #92a2c3;"> unusual fatigue and drowsiness</a>.
-      </p> 
-    </div>
-    <div class="griditem">
-      
-    </div>    
-    <div class="griditem"></div> 
-  </div>
-</section>
+    <!-- DATA VISUALIZATION PART 4-->
+    <section class="child">
+      <div class="section-dataviz">
+        <div class="leftcolumn">
+          <!-- first row with 2 empty columns -->
+          <div class="griditem"></div>
+          <div class="griditem"></div>
+          <!-- second row with content in second column -->
+          <div class="annotation_left">
+            <p class="annotation_all_women">
+              102,810 <br> women <br> in total
+            </p>
+          </div>
+          <div class="griditem">
+            <!-- <div class="dataviz"> -->
+            <svg id="svg-pos1-4" width="750" height="480">
+              <defs>
+                <linearGradient id="gradient-green">  <!-- for missing data -->
+                  <stop offset="00%" stop-color="#00d02322" />
+                  <stop offset="35%" stop-color="#00d02322" />
+                  <stop offset="40%" stop-color="#00d02350" />
+                  <stop offset="49%" stop-color="#00d02350" />
+                  <stop offset="53%" stop-color="#00d02388" />
+                  <stop offset="100%" stop-color="#00d02388" />
+                </linearGradient>
+              </defs>
+            </svg> 
+            <img class="img-stages" src="svg/icons-pregnancy-stages.svg">
 
-<!-- END OF DATA VISUALIZATION PART 6 -->
+            <div class="label-box" style="margin-left: 260px;">
+              <div class="area-label-item" >
+                <div class="g-element">
+                  <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="10" fill="#00d02395"/>
+                  </svg>
+                </div>
+                <div class="txt-element">Nausea with Vomiting</div>
+              </div>
 
-<!-- DATA VISUALIZATION PART 7: Negative -->
-<section class="section-dataviz">
-  <div class="leftcolumn">
-    <div class="griditem"></div>
-    <div class="griditem">
-      <p style="font-size: 2vw; margin-top: 1vh; margin-bottom: -4vh;"> Nausea + Vomiting </p>
-    </div>
-    
-    <div class="griditem"></div>
-    
-    <div class="griditem" style="padding-left: -20px">
-        <svg id="svg-pos1-7" width="750" height="450">
-        </svg> 
-    </div>
+              <div class="area-label-item">
+                <div class="g-element">
+                  <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="10" fill="#ff3300ff"/>
+                  </svg>
+                </div>
+                <div class="txt-element">Hospitalized women</div>
+              </div>
+              
+            </div> 
+          </div>             
+        <!-- third row with 2 empty columns -->
+          <div class="griditem"></div> 
+          <div class="griditem"></div>
+        </div>
 
-    <div class="griditem"></div>
-    <div class="griditem" style="margin-top: -120px; margin-left: -20px"> 
-      <img src="svg/icons-pregnancy-stages.svg" style="width: 600px">
-    </div>
-        
-    <div class="griditem">
-      <p class="annotation">Percentage of side symptoms of women with <a style="color: #00af1d">Nauseau and Vomiting</a></p>
-    </div> 
-    <div class="griditem"> 
-            <svg id="svg-neg1-2" width="750" height="450" style="margin-top: -5%"> 
-            </svg>
-    </div>
-    
-    <div class="grid-item"></div>
-    <div class="grid-item">
-      <div id="face-fatigue" width="50" height="50" >
-        <img src="svg/circle.svg" width="25" height="25" ></img>
-        <span class="tooltipbox">
-            <div class = "fatigue">Unusual Fatigue/Drowsiness</div>
-            <div class = "quote"> “(...) needing to constantly visit 
-              the hospital for being so weak that I would faint, 
-              not be able to eat, or fall over from dizziness, (…)” </div>
-        </span>
+        <div class="rightcolumn">
+          <!-- first row with 2 empty columns -->
+          <div class="griditem"></div>
+          <div class="griditem"></div>
+          <!-- second row with content in second column -->
+          <div class="griditem"> 
+            <p class="datavis_descript"> 
+              As you can see, the percentage of women affected, decreases in the fourth month. But for women with HG it can 
+              <a class="underliner" style="-webkit-text-decoration-color: #00d023; /* Safari */ 
+              text-decoration-color: #00d023;">last the entire pregnancy</a>.
+            </p>
+          </div>
+          <div class="griditem"></div>
+          <!-- third row with 2 empty columns -->
+          <div class="griditem"></div>
+          <div class="griditem"></div>
+        </div>
       </div>
+    </section>
+    <!-- END OF DATA VISUALIZATION PART 4 -->
 
-      <div id="face-headache" width="50" height="50" style="left: 0.5%">
-        <img src="svg/circle.svg" width="25" height="25"></img>
-        <span class="tooltipbox">
-            <div class = "headache" style="color: #ff794b;">Headache</div>
-            <div class = "quote"> “I was in so much pain” </div>
-       </span>
+    <!-- DATA VISUALIZATION PART 6: Negative -->
+    <section class="child">
+      <div class="section-dataviz">
+        <div class="leftcolumn2">
+          <div class="annotation_left">
+            <p class="annotation_all_women">
+              All <br> 102,810 <br> women
+            </p>
+          </div>
+
+          <div class="griditem" style="padding-left: -20px;">
+              <svg id="svg-pos1-6" width="750" height="460" 
+              style="position: relative; z-index: 2"></svg>
+          </div>
+            
+          <div class="griditem">
+            <div class="annotation_left">
+              <p class="annotation_side_symptoms"> 
+                Side symptoms of <a style="color:#00d023">women</a> who report nausea with vomiting</p>
+            </div>
+          </div> 
+
+          <div class="griditem" style="margin-top: 25px;"> 
+            <svg id="svg-neg1-6" width="750" height="460"></svg>
+
+            <div class="label-box-neg" style="margin-left: 95px;">
+              <div class="area-label-item">
+                <div class="g-element"></div>
+                <div class="txt-element"></div>
+              </div>
+              
+              <div class="area-label-item">
+                <div class="g-element">
+                  <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="10" fill="#00d02395"/>
+                  </svg>
+                </div>
+                <div class="txt-element">Nausea with Vomiting</div>
+              </div>
+
+              <div class="area-label-item">
+                <div class="g-element">
+                  <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="10" fill="#92a2c3"/>
+                  </svg>
+                </div>
+                <div class="txt-element">Unusual Fatigue/ Drowsiness</div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="grid-item"></div>
+
+          <div class="grid-item">
+            <div id="face-fatigue"width="50" height="50">
+              <img src="svg/bubble.svg" width="25" height="25">
+              <span class="tooltipbox" style="width: 530px">
+                <table>
+                  <tr>
+                    <td>
+                      <img src="svg/fatigue_blurred.svg" width="200" height="200">
+                    </td>
+                    <td>
+                      <div class="fatigue">Unusual Fatigue/Drowsiness</div>
+                      <div class="quote">“I went to the doctor and he said it was completely normal.
+                        Gradually, the nausea became more intense and I threw up at least 20 times a day. 
+                        I became sick, lethargic, unable to function.” </div>
+                    </td>
+                  </tr>
+                </table>
+              </span>
+            </div>
+          </div>
+          <div class="grid-item"></div>
+          <div class="grid-item"></div>
+          <div class="grid-item"></div>
+          
+        </div>
+
+        <div class="rightcolumn">
+          <div class="griditem"></div>
+          <div class="griditem"></div>
+          <div class="griditem">
+            <p class="datavis_descript_2"> 
+              What is below the iceberg? <br><br>
+              HG affects the whole body and mind. <br> The most common symptom is <a class="underliner" style="-webkit-text-decoration-color: #92a2c3; /* Safari */ 
+              text-decoration-color: #92a2c3;">unusual fatigue and drowsiness</a>. 
+            </p>
+            <p class="datavis_descript_small">
+             Note that in the chart below we only show the subgroup of women reported <a class="underliner" style="-webkit-text-decoration-color: #00d023; /* Safari */ 
+             text-decoration-color: #00d023;">nausea with vomiting</a>.
+            </p>
+            <p class="datavis_descript_small"> 
+              For example, if women reported <a class="underliner" style="-webkit-text-decoration-color: #00d023; /* Safari */ 
+              text-decoration-color: #00d023;">nausea with vomiting</a> in the first month,
+              <a class="underliner" style="-webkit-text-decoration-color: #92a2c3; /* Safari */ 
+              text-decoration-color: #92a2c3;">52 percent</a> 
+              of them also reported <a class="underliner" style="-webkit-text-decoration-color: #92a2c3; /* Safari */ 
+              text-decoration-color: #92a2c3;">unusual fatigue and drowsiness</a> in the first month.  
+            </p>
+          </div>
+        </div>
       </div>
+    </section>
 
-    </div>
-  </div>
+    <!-- END OF DATA VISUALIZATION PART 6 -->
 
-  <div class="rightcolumn">
-    <div class="griditem">
-    <!--<p style="font-size: 2vw; margin-top: 1vh; margin-bottom: -4vh;"> No Nausea + Vomiting</p> -->
-    </div>
-    <div class="griditem"></div>
-    <div class="griditem"> 
-    </div>
-    <div class="griditem"></div>
-    <div class="griditem"> 
-      <p class="datavis_descript"> 
-        Nausea and Vomiting over a longer period can lead to life-threatening <a class="underliner" style="-webkit-text-decoration-color: #ff794b; /* Safari */ 
-        text-decoration-color: #ff794b;">dehydration</a> which causes <a class="underliner" style="-webkit-text-decoration-color: #ff794b; /* Safari */ 
-        text-decoration-color: #ff794b;">headaches</a>.
-      </p> 
-    </div>
-    <div class="griditem"></div>
-    <div class="griditem">
-      
-    </div>    
-    <div class="griditem"></div> 
-  </div>
-</section>
+    <!-- DATA VISUALIZATION PART 7: Negative -->
+    <section class="child">
+      <div class="section-dataviz">
+        <div class="leftcolumn2">
+          <div class="annotation_left">
+            <p class="annotation_all_women">
+              All <br> 102,810 <br> women
+            </p>
+          </div>
 
-<!-- END OF DATA VISUALIZATION PART 7 -->
-
-<!-- DATA VISUALIZATION PART 8: Negative -->
-<section class="section-dataviz">
-  <div class="leftcolumn">
-    <div class="griditem"></div>
-    <div class="griditem">
-      <p style="font-size: 2vw; margin-top: 1vh; margin-bottom: -4vh;"> Nausea + Vomiting </p>
-    </div>
-    
-    <div class="griditem"></div>
-    
-    <div class="griditem" style="padding-left: -20px">
-        <svg id="svg-pos1-8" width="750" height="450">
-        </svg> 
-    </div>
-
-    <div class="griditem"></div>
-    <div class="griditem" style="margin-top: -120px; margin-left: -20px"> 
-      <img src="svg/icons-pregnancy-stages.svg" style="width: 600px">
-    </div>
+          <div class="griditem" style="padding-left: -20px">
+            <svg id="svg-pos1-7" width="750" height="460" 
+            style="position: relative; z-index: 2"></svg> 
+          </div>
+              
+          <div class="griditem">
+            <div class="annotation_left">
+              <p class="annotation_side_symptoms"> 
+                Side symptoms of <a style="color:#00d023">women</a> who report nausea with vomiting</p>
+            </div>
+          </div>
         
-    <div class="griditem">
-      <p class="annotation">Percentage of side symptoms of women with <a style="color: #00af1d">Nauseau and Vomiting</a></p>
-    </div> 
+          <div class="griditem" style="margin-top: 25px;">
+            <svg id="svg-neg1-7" width="750" height="460"></svg>
 
-    <div class="griditem"> 
-            <svg id="svg-neg1-3" width="750" height="450" style="margin-top: -5%"> 
+            <div class="label-box-neg">
+              <div class="area-label-item">
+                <div class="g-element"></div>
+                <div class="txt-element"></div>
+              </div>
+
+              <div class="area-label-item">
+                <div class="g-element">
+                  <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="10" fill="#00d02395"/>
+                  </svg>
+                </div>
+                <div class="txt-element">Nausea with Vomiting</div>
+              </div>
+
+              <div class="area-label-item">
+                <div class="g-element">
+                  <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="10" fill="#92a2c3"/>
+                  </svg>
+                </div>
+                <div class="txt-element">Unusual Fatigue/ Drowsiness</div>
+              </div>
+
+              <div class="area-label-item">
+                <div class="g-element">
+                  <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="10" fill="#ff794bed"/>
+                  </svg>
+                </div>
+                <div class="txt-element">Headaches</div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="grid-item">
+            <div id="face-headache" width="50" height="50">
+              <img src="svg/bubble.svg" width="25" height="25">
+              <span class="tooltipbox">
+                <table>
+                  <tr>
+                    <td>
+                      <img src="svg/headache.svg" width="200" height="200">
+                    </td>
+                    <td>
+                      <div class="headache" style="color: #ff794b;">Headache</div>
+                      <div class="quote"> “My initial tears of joy quickly turned to ones of pain, suffering, and anger.” </div>
+                    </td>
+                  </tr>
+                </table>
+              </span>
+            </div>
+          </div>
+
+          <div class="grid-item">
+            <div id="face-fatigue" width="50" height="50" >
+              <img src="svg/bubble.svg" width="25" height="25">
+              <span class="tooltipbox">
+                <table>
+                  <tr>
+                    <td>
+                      <img src="svg/fatigue_blurred.svg" width="200" height="200">
+                    </td>
+                    <td>
+                      <div class="fatigue">Unusual Fatigue/Drowsiness</div>
+                      <div class="quote"> “(...) needing to constantly visit 
+                        the hospital for being so weak that I would faint, 
+                        not be able to eat, or fall over from dizziness (...)” </div>
+                    </td>
+                  </tr>
+                </table>
+              </span>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="rightcolumn">
+          <div class="griditem"></div>
+          <div class="griditem"></div>
+          <div class="griditem"> 
+            <p class="datavis_descript" style="margin-top: 100px"> 
+              Nausea and Vomiting over a longer period cause <a class="underliner" style="-webkit-text-decoration-color: #ff794b; /* Safari */ 
+              text-decoration-color: #ff794b;">physical stress</a> and can lead to life-threatening <a class="underliner" style="-webkit-text-decoration-color: #ff794b; /* Safari */ 
+              text-decoration-color: #ff794b;">dehydration</a>, which causes <a class="underliner" style="-webkit-text-decoration-color: #ff794b; /* Safari */ 
+              text-decoration-color: #ff794b;">headaches</a>.
+            </p> 
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- END OF DATA VISUALIZATION PART 7 -->
+
+    <!-- DATA VISUALIZATION PART 8: Negative -->
+    <section class="child">
+      <div class="section-dataviz">
+        <div class="leftcolumn2">
+          <div class="griditem">
+            <p class="annotation_all_women">
+              All <br> 102,810 <br> women
+            </p>
+          </div>
+
+          <div class="griditem" style="padding-left: -20px">
+            <svg id="svg-pos1-8" width="750" height="460" 
+            style="position:relative; z-index: 2"></svg> 
+          </div>
+              
+          <div class="griditem">
+            <div class="annotation_left">
+              <p class="annotation_side_symptoms"> 
+                Side symptoms of <a style="color:#00d023">women</a> who report nausea with vomiting</p>
+            </div>
+          </div> 
+          
+          <div class="griditem" style="margin-top: 25px;">
+            <svg id="svg-neg1-8" width="750" height="460"> 
               <defs>
                 <linearGradient id="gradient01">  <!-- for missing data -->
                   <stop offset="00%" stop-color="#0022ff85" />
@@ -588,104 +669,194 @@
                   <stop offset="53%" stop-color="#0022ff11" />
                   <stop offset="60%" stop-color="#0022ff00" />
                 </linearGradient>
-             </defs>
+              </defs>
             </svg>
-    </div>
-    
-    <div class="grid-item"></div>
-    <div class="grid-item">
-      <div id="face-fatigue"width="50" height="50" style="margin-left: -0%">
-        <img src="svg/circle.svg" width="25" ></img>
-        <span class="tooltipbox">
-            <div class = "fatigue">Unusual Fatigue/Drowsiness</div>
-            <div class = "quote"> “(...) needing to constantly visit 
-              the hospital for being so weak that I would faint, 
-              not be able to eat, or fall over from dizziness, (…)” </div>
-        </span>
+         
+            <div class="label-box-neg">
+              <div class="area-label-item">
+                <div class="g-element">
+                  <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="10" fill="#00d02395"/>
+                  </svg>
+                </div>
+                <div class="txt-element">Nausea with Vomiting</div>
+              </div>
+
+              <div class="area-label-item">
+                <div class="g-element">
+                  <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="10" fill="#92a2c3"/>
+                  </svg>
+                </div>
+                <div class="txt-element">Unusual Fatigue/ Drowsiness</div>
+              </div>
+
+              <div class="area-label-item">
+                <div class="g-element">
+                  <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="10" fill="#ff794bed"/>
+                  </svg>
+                </div>
+                <div class="txt-element">Headaches</div>
+              </div>
+
+              <div class="area-label-item">
+                <div class="g-element">
+                  <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="10" fill="#0022ff85"/>
+                  </svg>
+                </div>
+                <div class="txt-element">Sleeping Problems</div>
+              </div>
+
+              <div class="area-label-item">
+                <div class="g-element">
+                  <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="10" fill="#1119"/>
+                  </svg>
+                </div>
+                <div class="txt-element">Depression</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="griditem">
+            <div id="face-headache" width="50" height="50">
+              <img src="svg/bubble.svg" width="25" height="25">
+              <span class="tooltipbox">
+                <table>
+                  <tr>
+                    <td><img src="svg/headache.svg" width="200" height="200"></td>
+                    <td>
+                      <div class = "headache" style="color: #ff794b">Headache</div>
+                      <div class = "quote"> “No one knew my pain (...).” </div>
+                    </td>
+                  </tr>
+                </table> 
+              </span>
+            </div>
+          </div>
+
+          <div class="griditem">
+            <div id="face-fatigue"width="50" height="50">
+              <img src="svg/bubble.svg" width="25" height="25">
+              <span class="tooltipbox">
+                <table>
+                  <tr>
+                    <td><img src="svg/fatigue_blurred.svg" width="200" height="200"></td>
+                    <td>
+                      <div class = "fatigue">Unusual Fatigue/Drowsiness</div>
+                      <div class = "quote"> “I couldn’t work; I couldn’t walk; I was totally dead.” </div>
+                    </td>
+                  </tr>
+                </table>
+              </span>
+            </div>
+          </div>
+
+
+          <div class="griditem">
+            <div id="face-depress" width="50" height="50">
+              <img src="svg/bubble.svg" width="25" height="25">
+              <span class="tooltipbox" style="background-color: #111">
+                <table>
+                  <tr>
+                    <td><img src="svg/depression.svg" width="200" height="200"></td>
+                    <td>
+                      <div class = "depress" style="color: white">Depression</div>
+                      <div class = "quote" style="color: white"> 
+                        “Pregnancy for me was traumatic, lonely, and a very depressing time.” 
+                        “I was mentally not there. I was rotting away in a hospital bed, losing weight and losing me. I lost myself completely.” </div>
+                    </td>
+                  </tr>
+                </table>
+              </span>
+            </div>
+          </div>
+
+          <div class="griditem">
+            <div id="face-sleep" width="50" height="50">
+              <img src="svg/bubble.svg" width="25" height="25">
+              <span class="tooltipbox" style="background-color: #333">
+                <table>
+                  <tr>
+                    <td><img src="svg/sleep.svg" width="200" height="200"></td>
+                    <td>
+                      <div class = "sleep" style="color: white">Sleeping Problems</div>
+                      <div class = "quote" style="color: white"> “My vomiting was so severe that I barely 
+                        slept at night and constantly had my head in the toilet or a bucket.” </div>
+                    </td>
+                  </tr>
+                </table>
+              </span>
+            </div>
+          </div>
+        </div>
+      
+        <div class="rightcolumn2">
+          <div class="griditem"></div>
+          <div class="griditem"></div>
+          <div class="griditem">
+            <p class="datavis_descript" style="margin-top: -300px"> <a class="underliner" style="-webkit-text-decoration-color: #0022ff; /* Safari */ 
+                  text-decoration-color: #0022ff;">Sleeping problems</a> and <a class="underliner" style="-webkit-text-decoration-color: #0022ff; /* Safari */ 
+                  text-decoration-color: #300;">depression</a> are psychologically serious problems that require immediate medical and psychological help.
+            </p> 
+            <p class="datavis_descript_small">
+              (Note that the data for sleeping problems from month 4 to 8+ is missing)<br><br><br>
+            </p>
+          </div>
+        </div>
       </div>
+    </section>
 
-      <div id="face-headache" width="50" height="50" style="left: 0.5%">
-        <img src="svg/circle.svg" width="25" height="25"></img>
-        <span class="tooltipbox">
-            <div class = "headache" style="color: #ff794b">Headache</div>
-            <div class = "quote"> “I was in so much pain” </div>
-       </span>
+    <!-- END OF DATA VISUALIZATION PART 8 -->
+
+    <section class="child">
+      <p style="font-size: 3vw; background: #fbedfd; padding-top:4vh; padding-bottom: 4vh;">
+        How do the symptoms look like in women<br>who have not experienced HG?</p>
+      <div class="section-dataviz">             
+        <div class="leftcolumn3"> 
+          <div class="text-column3" style="text-align: center;">
+            <p>We compare our focus group<br>(nausea with vomiting) ... </p>
+          </div>
+        </div>
+
+        <div class="rightcolumn3">
+          <div class="text-column3">
+            <span style="display: inline-block; vertical-align: middle;">
+              <p> ... with two other groups (right hand side): <br>
+              1. reported nausea without vomiting <br>
+              2. reported neither nausea nor vomiting</p>
+            </span>
+          </div>      
+        </div>
       </div>
+    </section>
 
-      <div id="face-depress" width="50" height="50">
-        <img src="svg/circle.svg" width="25" height="25"></img>
-        <span class="tooltipbox" style="background-color: #111">
-            <div class = "depress" style="color: white">Depression</div>
-            <div class = "quote" style="color: white"> “Anxious. Isolated, lonely. Feeling sorry for myself. Thought I was going to die.” </div>
-       </span>
-      </div>
+    <!-- START OF DATA VISUALIZATION PART 9 - ONLY NAUSEA-->
+    <section class="child">
+      <div class="section-dataviz">
+        <div class="leftcolumn2">
+          <div class="griditem">
+            <p class="annotation_all_women">
+              All <br> 102,810 <br> women
+            </p>
+          </div>
 
-      <div id="face-sleep" width="50" height="50" style="margin-left:-5%">
-        <img src="svg/circle.svg" width="25" height="25"></img>
-        <span class="tooltipbox" style="background-color: #333">
-            <div class = "sleep" style="color: white">Sleeping Problems</div>
-            <div class = "quote" style="color: white"> “My vomiting was so severe that I barely 
-              slept at night and constantly had my head in the toilet or a bucket.” </div>
-       </span>
-      </div>
-
-    </div>
-  </div>
-
-  <div class="rightcolumn">
-    <div class="griditem">
-    <!--<p style="font-size: 2vw; margin-top: 1vh; margin-bottom: -4vh;"> No Nausea + Vomiting</p> -->
-    </div>
-    <div class="griditem"></div>
-    <div class="griditem"></div>
-    <div class="griditem"></div>
-    <div class="griditem">
-    <div class="griditem"></div>
-    <div class="griditem">
-      <p class="datavis_descript_below"> 
-        <a class="underliner" style="-webkit-text-decoration-color: #0022ff; /* Safari */ 
-            text-decoration-color: #0022ff;">Sleeping Problems</a> and <a class="underliner" style="-webkit-text-decoration-color: #0022ff; /* Safari */ 
-            text-decoration-color: #300;">Depression</a> are psychologically serious problems that require immediate medical and psychological help.
-      </p> 
-      <p class="datavis_descript_small">
-        (Note that the data for sleeping problems from month 4 to 8+ is missing)<br><br>
-      </p>
-    </div>
-      <p class="datavis_descript_below"> How do the symptoms look like in women who have not experienced HG ?</p>
-    </div>    
-    <div class="griditem"></div> 
-  </div>
-</section>
-
-<!-- END OF DATA VISUALIZATION PART 8 -->
-
-<!-- START OF DATA VISUALIZATION PART Z -->
-    
-<section class="section-dataviz">
-  <div class="leftcolumn">
-    <div class="griditem"></div>
-    <div class="griditem">
-      <p style="font-size: 2vw; margin-top: 1vh; margin-bottom: -4vh;"> Nausea + Vomiting </p>
-    </div>
-    
-    <div class="griditem"></div>
-    
-    <div class="griditem" style="padding-left: -20px">
-        <svg id="svg-pos1-9" width="750" height="450">
-        </svg> 
-    </div>
-
-    <div class="griditem"></div>
-    <div class="griditem" style="margin-top: -120px; margin-left: -20px"> 
-      <img src="svg/icons-pregnancy-stages.svg" style="width: 600px">
-    </div>
-        
-    <div class="griditem">
-      <p class="annotation">Percentage of side symptoms of women with <a style="color: #00af1d">Nauseau and Vomiting</a></p>
-    </div> 
-
-    <div class="griditem"> 
-            <svg id="svg-neg1-4" width="750" height="450" style="margin-top: -50px"> 
+          <div class="griditem" style="padding-left: -20px;">
+            <svg id="svg-pos1-9" width="750" height="460" 
+            style="position:relative; z-index: 2"></svg> 
+          </div>
+              
+          <div class="griditem">
+            <div class="annotation_left">
+              <p class="annotation_side_symptoms"> 
+                Side symptoms of <a style="color:#00d023">women</a> who report nausea with vomiting</p>
+            </div>
+          </div> 
+          
+          <div class="griditem" style="margin-top: 25px">
+            <svg id="svg-neg1-9" width="750" height="460"> 
               <defs>
                 <linearGradient id="gradient01">  <!-- for missing data -->
                   <stop offset="00%" stop-color="#0022ff85" />
@@ -694,151 +865,440 @@
                   <stop offset="53%" stop-color="#0022ff11" />
                   <stop offset="60%" stop-color="#0022ff00" />
                 </linearGradient>
-             </defs>
+            </defs>
             </svg>
-    </div>
-    
-    <div class="grid-item"></div>
-    <div class="grid-item">
-      <div id="face-fatigue"width="50" height="50" style="margin-left: -0%">
-        <img src="svg/circle.svg" width="25" ></img>
-        <span class="tooltipbox">
-            <div class = "fatigue">Unusual Fatigue/Drowsiness</div>
-            <div class = "quote"> “(...) needing to constantly visit 
-              the hospital for being so weak that I would faint, 
-              not be able to eat, or fall over from dizziness, (…)” </div>
-        </span>
-      </div>
 
-      <div id="face-headache" width="50" height="50" style="left: 0.5%">
-        <img src="svg/circle.svg" width="25" height="25"></img>
-        <span class="tooltipbox">
-          <div class = "headache" style="color: #ff794b">Headache</div>
-          <div class = "quote"> “I was in so much pain” </div>
-       </span>
-      </div>
+            <div class="label-box-neg">
+              <div class="area-label-item">
+                <div class="g-element">
+                  <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="10" fill="#00d02395"/>
+                  </svg>
+                </div>
+                <div class="txt-element">Nausea with Vomiting</div>
+              </div>
 
-      <div id="face-depress" width="50" height="50">
-        <img src="svg/circle.svg" width="25" height="25"></img>
-        <span class="tooltipbox" style="background-color: #111">
-            <div class = "depress" style="color: white">Depression</div>
-            <div class = "quote" style="color: white"> “I got a new job 3 months before the pregnancy. 
-              My co-workers didn’t understand. HG has weakened me. I’m now depressed and
-              still on sick leave (after birth). I had to quit my job and move to another place.” </div>
-       </span>
-      </div>
+              <div class="area-label-item">
+                <div class="g-element">
+                  <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="10" fill="#92a2c3"/>
+                  </svg>
+                </div>
+                <div class="txt-element">Unusual Fatigue/ Drowsiness</div>
+              </div>
 
-      <div id="face-sleep" width="50" height="50" style="margin-left:-5%">
-        <img src="svg/circle.svg" width="25" height="25"></img>
-        <span class="tooltipbox" style="background-color: #333">
-          <div class = "sleep" style="color: white">Sleeping Problems</div>
-          <div class = "quote" style="color: white"> “My vomiting was so severe that I barely 
-            slept at night and constantly had my head in the toilet or a bucket.” </div>
-       </span>
-      </div>
+              <div class="area-label-item">
+                <div class="g-element">
+                  <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="10" fill="#ff794bed"/>
+                  </svg>
+                </div>
+                <div class="txt-element">Headaches</div>
+              </div>
 
-    </div>
-  </div>
+              <div class="area-label-item">
+                <div class="g-element">
+                  <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="10" fill="#0022ff85"/>
+                  </svg>
+                </div>
+                <div class="txt-element">Sleeping Problems</div>
+              </div>
 
-      <div class="rightcolumn">
-        <div class="griditem">
-          <p style="font-size: 2vw; margin-top: 1vh; margin-bottom: -4vh;"> No Nausea + Vomiting </p>
+              <div class="area-label-item">
+                <div class="g-element">
+                  <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="10" fill="#1119"/>
+                  </svg>
+                </div>
+                <div class="txt-element">Depression</div>
+              </div>
+            </div>
+
+          </div>
+          
+          <div class="griditem">
+            <div id="face-headache" width="50" height="50">
+              <img src="svg/bubble.svg" width="25" height="25">
+              <span class="tooltipbox">
+                <table>
+                  <tr>
+                    <td><img src="svg/headache.svg" width="200" height="200"></td>
+                    <td>
+                      <div class = "headache" style="color: #ff794b">Headache</div>
+                      <div class = "quote"> “I was in so much pain” </div>
+                    </td>
+                  </tr>
+                </table> 
+              </span>
+            </div>
+          </div>
+
+          <div class="griditem">
+            <div id="face-fatigue"width="50" height="50">
+              <img src="svg/bubble.svg" width="25" height="25">
+              <span class="tooltipbox">
+                <table>
+                  <tr>
+                    <td><img src="svg/fatigue_blurred.svg" width="200" height="200"></td>
+                    <td>
+                      <div class = "fatigue">Unusual Fatigue/Drowsiness</div>
+                      <div class = "quote"> “(...) needing to constantly visit 
+                        the hospital for being so weak that I would faint, 
+                        not be able to eat, or fall over from dizziness (…)” </div>
+                    </td>
+                  </tr>
+                </table>
+              </span>
+            </div>
+          </div>
+
+
+          <div class="griditem">
+            <div id="face-depress" width="50" height="50">
+              <img src="svg/bubble.svg" width="25" height="25">
+              <span class="tooltipbox" style="background-color: #111">
+                <table>
+                  <tr>
+                    <td><img src="svg/depression.svg" width="200" height="200"></td>
+                    <td>
+                      <div class = "depress" style="color: white">Depression</div>
+                      <div class = "quote" style="color: white"> 
+                        “Anxious. Isolated, lonely. Feeling sorry for myself. Thought I was going to die.”<br>“How can someone live like this and not die? I am having thoughts of self-harm, but I can’t help it." </div>
+                    </td>
+                  </tr>
+                </table>
+              </span>
+            </div>
+          </div>
+
+          <div class="griditem">
+            <div id="face-sleep" width="50" height="50">
+              <img src="svg/bubble.svg" width="25" height="25">
+              <span class="tooltipbox" style="background-color: #333">
+                <table>
+                  <tr>
+                    <td><img src="svg/sleep.svg" width="200" height="200"></td>
+                    <td>
+                      <div class = "sleep" style="color: white">Sleeping Problems</div>
+                      <div class = "quote" style="color: white"> “I’m so sick of being tired - it’s impossible to have uninterrupted sleep with this nausea.” </div>
+                    </td>
+                  </tr>
+                </table>
+              </span>
+            </div>
+          </div>
         </div>
-        <div class="griditem"></div>
-        <div class="griditem"> 
-          <svg id="svg-pos2" width="750" height="450"> 
-          </svg>
-            <!-- <svg id="dv-svg-pos2" width="750" height="500" style="margin-top:-5%;"></svg> -->
+
+        <div class="rightcolumn2">
+          <div class="griditem"> 
+            <svg id="svg-pos2-9" width="750" height="460" 
+            style="position:relative; z-index: 2"></svg>
+          </div>
+
+          <div class="griditem">
+            <div class="label-box" style="margin-top: 300px; margin-left: -90px;">
+              <div class="area-label-item" style="display: flex">
+                <div class="g-element">
+                  <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="10" fill="#00d02355"/>
+                  </svg>
+                </div>
+                <div class="txt-element" style="margin-top: 33px; margin-right: -10px;">Only Nausea</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="griditem" style="margin-top: 25px">
+            <svg id="svg-neg2-9" width="750" height="460"></svg>
+          </div>
+
+          <div class="griditem">
+            <div class="annotation_right">
+              <p class="annotation_side_symptoms_right">  
+                Side symptoms of <a style="color:#00d02395">women</a> who reported nausea without vomiting</p>
+            </div>
+          </div>
         </div>
-        <div class="griditem"></div>
-        <div class="griditem" style="margin-top: -135px; margin-left: -20px"> 
-          <img src="svg/icons-pregnancy-stages.svg" style="width: 600px; height: 100px">
-        </div>
-        <div class="griditem"></div>
-        <div class="griditem"> 
-            <svg id="svg-neg2" width="750" height="450" style="margin-top: -65px">  <!-- width="750" height="500"-->
+      </div>
+    </section>
+
+    <!-- END OF DATA VISUALIZATION PART 9 -->
+
+    <!-- START OF DATA VISUALIZATION PART 10 -->
+    <section class="child">
+      <div class="section-dataviz">
+        <div class="leftcolumn2">
+          <div class="griditem">
+            <p class="annotation_all_women">
+              All <br> 102,810 <br> women
+            </p>
+          </div>
+
+          <div class="griditem" style="padding-left: -20px;">
+            <svg id="svg-pos1-10" width="750" height="460" 
+            style="position:relative; z-index: 2"></svg> 
+          </div>
+              
+          <div class="griditem">
+            <div class="annotation_left">
+              <p class="annotation_side_symptoms"> 
+                Side symptoms of <a style="color:#00d023">women</a> who report nausea with vomiting</p>
+            </div>
+          </div> 
+          
+          <div class="griditem" style="margin-top: 25px">
+            <svg id="svg-neg1-10" width="750" height="460"> 
+              <defs>
+                <linearGradient id="gradient01">  <!-- for missing data -->
+                  <stop offset="00%" stop-color="#0022ff85" />
+                  <stop offset="30%" stop-color="#0022ff80" />
+                  <stop offset="49%" stop-color="#0022ff80" />
+                  <stop offset="53%" stop-color="#0022ff11" />
+                  <stop offset="60%" stop-color="#0022ff00" />
+                </linearGradient>
+            </defs>
             </svg>
+
+            <div class="label-box-neg">
+              <div class="area-label-item">
+                <div class="g-element">
+                  <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="10" fill="#00d02395"/>
+                  </svg>
+                </div>
+                <div class="txt-element">Nausea with Vomiting</div>
+              </div>
+
+              <div class="area-label-item">
+                <div class="g-element">
+                  <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="10" fill="#92a2c3"/>
+                  </svg>
+                </div>
+                <div class="txt-element">Unusual Fatigue/ Drowsiness</div>
+              </div>
+
+              <div class="area-label-item">
+                <div class="g-element">
+                  <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="10" fill="#ff794bed"/>
+                  </svg>
+                </div>
+                <div class="txt-element">Headaches</div>
+              </div>
+
+              <div class="area-label-item">
+                <div class="g-element">
+                  <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="10" fill="#0022ff85"/>
+                  </svg>
+                </div>
+                <div class="txt-element">Sleeping Problems</div>
+              </div>
+
+              <div class="area-label-item">
+                <div class="g-element">
+                  <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="10" fill="#1119"/>
+                  </svg>
+                </div>
+                <div class="txt-element">Depression</div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="griditem">
+            <div id="face-headache" width="50" height="50">
+              <img src="svg/bubble.svg" width="25" height="25">
+              <span class="tooltipbox">
+                <table>
+                  <tr>
+                    <td><img src="svg/headache.svg" width="200" height="200"></td>
+                    <td>
+                      <div class = "headache" style="color: #ff794b">Headache</div>
+                      <div class = "quote"> “My pain was obvious to everyone around me. 
+                        The neighbors even called for a welfare check after hearing me scream while getting sick all the time.” </div>
+                    </td>
+                  </tr>
+                </table> 
+              </span>
+            </div>
+          </div>
+
+          <div class="griditem">
+            <div id="face-fatigue"width="50" height="50">
+              <img src="svg/bubble.svg" width="25" height="25">
+              <span class="tooltipbox">
+                <table>
+                  <tr>
+                    <td><img src="svg/fatigue_blurred.svg" width="200" height="200"></td>
+                    <td>
+                      <div class = "fatigue">Unusual Fatigue/Drowsiness</div>
+                      <div class = "quote"> “I’m so sick of being expected to perform well when I’m (...) falling asleep at my desk.” </div>
+                    </td>
+                  </tr>
+                </table>
+              </span>
+            </div>
+          </div>
+
+          <div class="griditem">
+            <div id="face-depress" width="50" height="50">
+              <img src="svg/bubble.svg" width="25" height="25">
+              <span class="tooltipbox" style="background-color: #111">
+                <table>
+                  <tr>
+                    <td><img src="svg/depression.svg" width="200" height="200"></td>
+                    <td>
+                      <div class = "depress" style="color: white">Depression</div>
+                      <div class = "quote" style="color: white"> 
+                        “I considered taking my own life on multiple occasions, both during pregnancy and since.” </div>
+                    </td>
+                  </tr>
+                </table>
+              </span>
+            </div>
+          </div>
+
+          <div class="griditem">
+            <div id="face-sleep" width="50" height="50">
+              <img src="svg/bubble.svg" width="25" height="25">
+              <span class="tooltipbox" style="background-color: #333">
+                <table>
+                  <tr>
+                    <td><img src="svg/sleep.svg" width="200" height="200"></td>
+                    <td>
+                      <div class = "sleep" style="color: white">Sleeping Problems</div>
+                      <div class = "quote" style="color: white"> “My vomiting was so severe that I barely 
+                        slept at night and constantly had my head in the toilet or a bucket.” </div>
+                    </td>
+                  </tr>
+                </table>
+              </span>
+            </div>
+          </div>
         </div>
-        <div class="griditem"></div>
+
+        <div class="rightcolumn2">
+          <div class="griditem"> 
+            <svg id="svg-pos2-10" width="750" height="460" 
+            style="position:relative; z-index: 2"></svg>
+          </div>
+
+          <div class="griditem">
+            <div class="label-box" style="margin-top: 250px; margin-left: -60px;">
+              <div class="area-label-item" style="display:flexbox">
+                <div class="g-element">
+                  <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="10" fill="#e6b9cfff"/>
+                  </svg>
+                </div>
+                <div class="txt-element">
+                  Neither Nausea nor Vomiting</div>
+              </div>
+            </div>
+          </div> 
+
+          <div class="griditem" style="margin-top: 25px">
+            <svg id="svg-neg2-10" width="750" height="460"></svg>
+          </div>
+
+          <div class="griditem">
+            <div class="annotation_right">
+              <p class="annotation_side_symptoms_right">  
+                Side symptoms of <a style="color: #dd70a5">women</a> who report neither nausea nor vomiting</p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
-    <!-- END OF DATA VISUALIZATION PART Z -->
+    <!-- END OF DATA VISUALIZATION PART 10 -->
 
-    <section style="background: #ffebff">
-      <img class="intro-img" src="svg/heart.svg" style="height: 50vh; margin-top: 5vh;"/>
-      <div class="acktxt3" style="padding-bottom: 10vh;"> It can be traumatic to experience such a hard pregnancy. 
-        But when the mothers finally hold their child in their hands, they are happy and proud.
-      </div>
-    </section>
-
-    <section style = "background-image: linear-gradient(180deg, #ffebff, #efc6f5);">
-      <div class="acktxt" style="margin-top: 0">
-        Don't hesitate to seek help <br> if you have similar symptoms to these women ! <br> 
-        Ask your doctor for Antacids or Anti-nausea Medication <br>
-        that will alleviate your symptoms. 
-      </div>
-    </section>
-
-    <section style = "background-image: linear-gradient(180deg, #ffebff, #efc6f5);">
-      <div class="acktxt" style="margin-top: 0">
-        <div class="acktxt1">
-        For more Information and Stories about HG experiences visit:
+      <section class="child" style="background: #ffebff">
+        <img class="intro-img" src="svg/heart.svg" style="height: 30vh; margin-top: 20vh;"/>
+        <div class="acktxt" style="margin-top: -35vh;"> 
+          <p>It can be traumatic to experience such a hard pregnancy. 
+          But when the mothers finally hold their child in their hands, they are happy and proud.</p>
         </div>
-        <div class="acktxt2">
-          <a class="link" href="https://www.hyperemesis.org/"> www.hyperemesis.org </a>
-        </div>
-      </div>
-    </section>
+      </section>
 
-    <section style = "background-image: linear-gradient(180deg, #ffebff, #efc6f5);">
-      <div class="acktxt" style="margin-top: 0">
-        <div class="acktxt1">
-          The Norwegian Mother, Father and Child Cohort Study is supported by the Norwegian
-          Ministry of Health and Care Services and the Ministry of Education and Research. We are
-          grateful to all the participating families in Norway who take part in this on-going cohort
-          study.
+      <section class="child" style="background-image: linear-gradient(180deg, #ffebff, #efc6f5);">
+        <div class="acktxt">
+          <p>Don't hesitate to seek help if you have similar symptoms to these women !<br><br>Ask your doctor for Antacids or Anti-nausea Medication
+            that will alleviate your symptoms.</p>
         </div>
-        <div class="acktxt2">
-          <a class="link" href="https://www.fhi.no/op/studier/moba//"> MoBa </a>
+      </section>
+
+      <section class="child" style="background-image: linear-gradient(180deg, #ffebff, #efc6f5);">
+        <div class="acktxt" style="margin-top: 0">
+          <div class="acktxt1">
+            <p>For more Information and Stories about HG experiences visit:</p>
+          </div>
+          <div class="acktxt2">
+            <a class="link" href="https://www.hyperemesis.org/" target="_blank"> www.hyperemesis.org </a>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-  
-</body>
+      <section class="child" style="background-image: linear-gradient(180deg, #ffebff, #efc6f5);">
+        <div class="acktxt" style="margin-top: 0">
+          <div class="acktxt1">
+            <p>The Norwegian Mother, Father and Child Cohort Study is supported by the Norwegian
+            Ministry of Health and Care Services and the Ministry of Education and Research. We are
+            grateful to all the participating families in Norway who take part in this on-going cohort
+            study.</p>
+          </div>
+          <div class="acktxt2">
+            <a class="link" href="https://www.fhi.no/op/studier/moba//" target="_blank"> MoBa </a>
+          </div>
+        </div>
+      </section>
 
+      <section class="child" style = "background-image: linear-gradient(180deg, #ffebff, #efc6f5);">
+        <div class="acktxt" style="margin-top: 0">
+          <div class="acktxt1">
+            <p>Data Visualization, Storytelling, Illustration,<br>Animation, Design & Webdevelopment by Bea Budich <br><br> (budich[at]ovgu.de) <br><br>
+            A supervised project by Universitetet i Bergen and <br> Otto-von-Guericke-Universität Magdeburg.</p>
+          </div>
+        </div>
+      </section>
+
+    </article>    
+  </body>
 </html>
 
 
-<!-- <script src="NVpos1.js"></script> -->
-<script src="js/NVpos1.js"></script>
-<script src="js/NVpos1-res.js"></script>
-<script src="js/NVpos1-res2.js"></script>
-<script src="js/NVneg1.js"></script>
-<script src="js/noNVpos2.js"></script>
-<script src="js/noNVneg2.js"></script>
 <!-- Data Vis Parts -->
-<script src="js/parts/NVpos1-1.js"></script>
-<script src="js/parts/NVpos1-2.js"></script>
-<script src="js/parts/NVpos1-3.js"></script>
-<script src="js/parts/NVpos1-3-2.js"></script>
-<script src="js/parts/NVpos1-4.js"></script>
-<script src="js/parts/NVpos1-5.js"></script>
-<script src="js/parts/NVpos1-6.js"></script>
-<script src="js/parts/NVpos1-7.js"></script>
-<script src="js/parts/NVpos1-8.js"></script>
-<script src="js/parts/NVpos1-9.js"></script> 
-
-<script src="js/parts/noNVpos2-1.js"></script>
-<script src="js/parts/noNVpos2-2.js"></script>
-
-<script src="js/parts/NVneg1-1.js"></script>
-<script src="js/parts/NVneg1-2.js"></script>
-<script src="js/parts/NVneg1-3.js"></script>
-<script src="js/parts/NVneg1-4.js"></script>
-
-<!-- <script src="js/parts/NVneg1-1.js"></script>-->
+ <!-- upper charts -->
+ <script src="js/parts/NVpos1-1.js"></script>
+ <script src="js/parts/NVpos1-2.js"></script> 
+ <script src="js/parts/NVpos1-3-1.js"></script>  
+ <script src="js/parts/zoomin.js"></script> <!-- Animation --> 
+ <script src="js/parts/NVpos1-4.js"></script>
+ <script src="js/parts/NVpos1-5.js"></script>
+ <script src="js/parts/NVpos1-6.js"></script>
+ <script src="js/parts/NVpos1-7.js"></script>
+ <script src="js/parts/NVpos1-8.js"></script>
+ <script src="js/parts/NVpos1-9.js"></script> 
+ <script src="js/parts/NVpos1-10.js"></script> 
+ <!-- bottom charts -->
+ <script src="js/parts/NVneg1-6.js"></script>
+ <script src="js/parts/NVneg1-7.js"></script>
+ <script src="js/parts/NVneg1-8.js"></script>
+ <script src="js/parts/NVneg1-9.js"></script>
+ <script src="js/parts/NVneg1-10.js"></script>
+ 
+ <!-- right column -->
+ <!-- nausea -->
+ <script src="js/parts/nausea-pos2-9.js"></script>
+ <script src="js/parts/nausea-neg2-9.js"></script>
+ <!-- neither nausea nor vomiting -->
+ <script src="js/parts/no-nausea-pos2-10.js"></script>
+ <script src="js/parts/no-nausea-neg2-10.js"></script>
+ 
+ <script src="js/parts/noNVpos2-1.js"></script> <!--svg-pos2-1-->
 
 <script src="https://d3js.org/d3.v4.min.js"></script>
 
